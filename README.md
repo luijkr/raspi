@@ -21,3 +21,17 @@ diskutil unmountdisk /dev/disk2
 ```
 sudo dd if=FILE.img of=/dev/disk2 bs=2m
 ```
+
+###### Set up.
+
+Hook the Pi up to a keyboard and monitor, start the Pi, and log in using the default username (_pi_) and password (_raspberry_).
+
+Go to the setup menu
+
+```
+sudo raspi-config
+```
+
+And select `SSH` from the `Interfacing options` menu.
+
+Done.
