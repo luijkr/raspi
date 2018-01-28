@@ -34,4 +34,14 @@ sudo raspi-config
 
 And select `SSH` from the `Interfacing options` menu.
 
-Done.
+Install git...
+
+```
+sudo apt-get install git-core
+```
+
+... and install docker.
+
+```
+curl -sSL https://get.docker.com | sh
+```
